@@ -2,7 +2,7 @@
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI.Selection;
 
-namespace PromptSelection
+namespace Craftify.PromptSelection.Filters
 {
     public class ElementSelectionFilter : ISelectionFilter
     {
@@ -20,15 +20,14 @@ namespace PromptSelection
         {
             _validateReference = validateReference ?? throw new ArgumentNullException(nameof(validateReference));
         }
-        public bool AllowElement(Element elem)
+        public bool AllowElement(Element element)
         {
-
-            return _validateElement(elem);
+            return _validateElement(element);
         }
         public bool AllowReference(Reference reference, XYZ position)
         {
-            if (_validateReference == null) return true;
-            return _validateReference.Invoke(reference);
+            return _validateReference is null ||
+                   _validateReference.Invoke(reference);
         }
     }
 }

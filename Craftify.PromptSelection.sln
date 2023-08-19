@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromptSelection", "src\PromptSelection\PromptSelection.csproj", "{F38EA899-F78F-452F-9043-644BD8C2C832}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Craftify.PromptSelection", "src\Craftify.PromptSelection\Craftify.PromptSelection.csproj", "{F38EA899-F78F-452F-9043-644BD8C2C832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Craftify.PromptSelection.Samples", "Craftify.PromptSelection.Samples\Craftify.PromptSelection.Samples.csproj", "{1670BF3C-D1A9-4D9F-BF51-4D13A41B0696}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,9 @@ Global
 		{F38EA899-F78F-452F-9043-644BD8C2C832}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F38EA899-F78F-452F-9043-644BD8C2C832}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F38EA899-F78F-452F-9043-644BD8C2C832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1670BF3C-D1A9-4D9F-BF51-4D13A41B0696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1670BF3C-D1A9-4D9F-BF51-4D13A41B0696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1670BF3C-D1A9-4D9F-BF51-4D13A41B0696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1670BF3C-D1A9-4D9F-BF51-4D13A41B0696}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
