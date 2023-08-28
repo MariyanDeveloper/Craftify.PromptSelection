@@ -5,8 +5,22 @@
         <TargetFramework>net48</TargetFramework>
         <LangVersion>latest</LangVersion>
         <Nullable>enable</Nullable>
+        <Title>Craftify.PromptSelection</Title>
+        <Description>It simplifies the process of prompting users to select elements within the Revit environment</Description>
+        <PackageProjectUrl>https://github.com/MariyanDeveloper/Craftify.PromptSelection</PackageProjectUrl>
+        <PackageIcon>Craftify.png</PackageIcon>
+        <RepositoryUrl>https://github.com/MariyanDeveloper/Craftify.PromptSelection</RepositoryUrl>
+        <RepositoryType>github</RepositoryType>
+        <PackageTags>RevitAPI,C#,ElementSelection,PromptSelection</PackageTags>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="2023.0.0" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="..\..\..\ProductInformation\Craftify.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+        <Link>Craftify.png</Link>
+      </None>
     </ItemGroup>
 </Project>
